@@ -1,5 +1,5 @@
 //
-//  NetworkErroCell.swift
+//  NetworkErrorCell.swift
 //  
 //
 //  Created by Eric Huang on 2/8/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NetworkErroCell: UITableViewCell {
+class NetworkErrorCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

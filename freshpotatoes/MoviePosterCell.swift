@@ -10,10 +10,13 @@ import UIKit
 
 class MoviePosterCell: UITableViewCell {
 
+
+    @IBOutlet weak var posterImage: UIImageView!
+
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
-    }
+        posterImage.contentMode = UIViewContentMode.ScaleAspectFit
+    }	
 
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
